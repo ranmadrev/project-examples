@@ -2,10 +2,10 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: my_github
-      path: jfrog/jfrog-pipelines-simple-example
+      gitProvider: GitIntegration
+      path: ranmadrev/jfrog-pipelines-simple-example
       branches:
-        include: master
+        include: main
   - name: myBuildInfo
     type: BuildInfo
     configuration:
